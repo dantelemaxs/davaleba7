@@ -1,0 +1,831 @@
+.header{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+.header h1{
+    font-family: 'Rufina', serif;
+    font-size: 22px;
+    color: black;
+    font-size: 20px;
+}
+:any-link{
+text-decoration:none;
+color: black;
+}
+.navigation{
+ font-family: 'Rufina', serif;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+margin-left: 100px;
+width: auto;
+gap: 40px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    width: 336px;
+    height: 41px;
+border:1px solid rgba(75, 75, 75, 1)
+}
+.header2{
+    font-family: 'Red Hat Display';
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 312px;
+    margin-right: 310px;
+    margin-top: 40px;
+    margin-bottom: 54px;
+}
+.maingrid{ 
+display: grid;
+justify-content: space-around;
+grid-template-rows: repeat(4, 300px);
+grid-template-columns: repeat(4, 400px);
+margin-left: 222px;
+}
+.card-1{
+display: flex;
+flex-direction: column;
+}
+.card-header{ 
+    font-family: 'Red Hat Display';
+    display: flex;
+    justify-content: space-between;
+    width: 260px ;
+    font-size: 12px;
+    height: 30px;
+}
+.color-1{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    background-color:rgba(205, 240, 234, 1);
+    width: 260px;
+    height: 50px;
+    border-radius: 4px;
+}
+p {
+    font-family: 'Red Hat Display', sans-serif;
+    background: rgba(217, 217, 217, 0.5);
+    color: #FFFFFF;
+    font-size: 12px;
+    opacity: 0;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+.color-1:hover p{
+opacity: 1;
+}
+.color-2{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+background-color: rgba(249, 249, 249, 1);
+width: 260px;
+height: 50px;
+border-radius: 4px;
+}
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    background: rgba(217, 217, 217, 0.5);
+    color: #FFFFFF;
+    font-size: 12px;
+    opacity: 0;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+.color-2:hover p{
+opacity: 1;
+}
+.color-3{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+background-color: rgba(246, 198, 234, 1);
+width: 260px;
+height: 50px;
+border-radius: 4px;
+}
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    background: rgba(217, 217, 217, 0.5);
+    color: #FFFFFF;
+    font-size: 12px;
+    opacity: 0;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+.color-3:hover p{
+opacity: 1;
+}
+.color-4{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+background-color: rgba(250, 244, 183, 1);
+width: 260px;
+height: 50px;
+border-radius: 4px;
+}
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    background: rgba(217, 217, 217, 0.5);
+    color: #FFFFFF;
+    font-size: 12px;
+    opacity: 0;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+.color-4:hover p{
+opacity: 1;
+}
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 260px;
+    height: 40px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 4px;
+}
+.card-footer img{
+height: 30px;
+width: 30px;
+}
+.download{
+margin-left: 122px;
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    }
+    .color-5{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+        background-color:rgba(212, 236, 221, 1);
+        width: 260px;
+        height: 50px;
+        border-radius: 4px;
+    }
+    .color-5:hover p{
+    opacity: 1;
+    }
+    .color-6{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+    background-color: rgba(52, 91, 99, 1);
+    width: 260px;
+    height: 50px;
+    border-radius: 4px;
+    }
+    p{
+        font-family: 'Red Hat Display', sans-serif;
+        background: rgba(217, 217, 217, 0.5);
+        color: #FFFFFF;
+        font-size: 12px;
+        opacity: 0;
+        border-radius: 4px;
+        margin-bottom: 2px;
+    }
+    .color-6:hover p{
+    opacity: 1;
+    }
+    .color-7{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+    background-color: rgba(21, 45, 53, 1);
+    width: 260px;
+    height: 50px;
+    border-radius: 4px;
+    }
+    .color-7:hover p{
+    opacity: 1;
+    }
+    .color-8{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+    background-color:rgba(17, 32, 49, 1);
+    width: 260px;
+    height: 50px;
+    border-radius: 4px;
+    }
+    .color-8:hover p{
+    opacity: 1;
+    }
+    .download{
+    margin-left: 122px;
+    }
+
+    .card-3{
+        display: flex;
+        flex-direction: column;
+        }
+        .card-header{ 
+            font-family: 'Red Hat Display';
+            display: flex;
+            justify-content: space-between;
+            width: 260px ;
+            font-size: 12px;
+            height: 30px;
+        }
+        .color-9{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+            background-color:rgba(249, 243, 223, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+        }
+        .color-9:hover p{
+        opacity: 1;
+        }
+        .color-10{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+        background-color:rgba(205, 242, 202, 1);
+        width: 260px;
+        height: 50px;
+        border-radius: 4px;
+        }
+        .color-10:hover p{
+        opacity: 1;
+        }
+        .color-11{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+        background-color:rgba(255, 222, 250, 1);
+        width: 260px;
+        height: 50px;
+        border-radius: 4px;
+        }
+        .color-11:hover p{
+        opacity: 1;
+        }
+        .color-12{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+        background-color:rgba(255, 200, 152, 1);
+        width: 260px;
+        height: 50px;
+        border-radius: 4px;
+        }
+        .color-12:hover p{
+        opacity: 1;
+        }
+        .download{
+        margin-left: 122px;
+        }
+        .card-4{
+            display: flex;
+            flex-direction: column;
+            }
+            .color-13{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+                background-color:rgba(51, 48, 228, 1);
+                width: 260px;
+                height: 50px;
+                border-radius: 4px;
+            }
+            .color-13:hover p{
+            opacity: 1;
+            }
+            .color-14{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+            background-color:rgba(246, 55, 236, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+            }
+            .color-14:hover p{
+            opacity: 1;
+            }
+            .color-15{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+            background-color:rgba(251, 180, 84, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+            }
+            .color-15:hover p{
+            opacity: 1;
+            }
+            .color-16{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+            background-color:rgba(250, 234, 72, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+            }
+            .color-16:hover p{
+            opacity: 1;
+            }
+
+            .download{
+            margin-left: 122px;
+            }
+            .card-5{
+                display: flex;
+                flex-direction: column;
+                }
+                .color-17{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-end;
+                    background-color:rgba(217, 215, 241, 1);
+                    width: 260px;
+                    height: 50px;
+                    border-radius: 4px;
+                }
+                .color-17:hover p{
+                opacity: 1;
+                }
+                .color-18{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-end;
+                background-color:rgba(255, 253, 222, 1);
+                width: 260px;
+                height: 50px;
+                border-radius: 4px;
+                }
+                .color-18:hover p{
+                opacity: 1;
+                }
+                .color-19{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-end;
+                background-color:rgba(231, 251, 190, 1);
+                width: 260px;
+                height: 50px;
+                border-radius: 4px;
+                }
+                .color-19:hover p{
+                opacity: 1;
+                }
+                .color-20{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-end;
+                background-color:rgba(255, 203, 203, 1);
+                width: 260px;
+                height: 50px;
+                border-radius: 4px;
+                }
+                .color-20:hover p{
+                opacity: 1;
+                }
+                .card-6{
+                    display: flex;
+                    flex-direction: column;
+                    }
+                   
+                    .color-21{
+                        display: flex;
+                        justify-content:space-between;
+                        align-items: flex-end;
+                        background-color:rgba(153, 0, 0, 1);
+                        width: 260px;
+                        height: 50px;
+                        border-radius: 4px;
+                    }
+                    .color-21:hover p{
+                    opacity: 1;
+                    }
+                    .color-22{
+                        display: flex;
+                        justify-content:space-between;
+                        align-items: flex-end;
+                    background-color:rgba(255, 91, 0, 1);
+                    width: 260px;
+                    height: 50px;
+                    border-radius: 4px;
+                    }
+                    .color-22:hover p{
+                    opacity: 1;
+                    }
+                    .color-23{
+                        display: flex;
+                        justify-content:space-between;
+                        align-items: flex-end;
+                    background-color:rgba(212, 217, 37, 1);
+                    width: 260px;
+                    height: 50px;
+                    border-radius: 4px;
+                    }
+                    .color-23:hover p{
+                    opacity: 1;
+                    }
+                    .color-24{
+                        display: flex;
+                        justify-content:space-between;
+                        align-items: flex-end;
+                    background-color:rgba(255, 238, 99, 1);
+                    width: 260px;
+                    height: 50px;
+                    border-radius: 4px;
+                    }
+                    .color-24:hover p{
+                    opacity: 1;
+                    }
+                    
+ .card-7{
+  display: flex;
+  flex-direction: column;
+  }
+
+  .color-25{
+      display: flex;
+      justify-content:space-between;
+      align-items: flex-end;
+      background-color:rgba(153, 0, 0, 1);
+      width: 260px;
+      height: 50px;
+      border-radius: 4px;
+  }
+  .color-25:hover p{
+  opacity: 1;
+  }
+  .color-26{
+      display: flex;
+      justify-content:space-between;
+      align-items: flex-end;
+  background-color:rgba(223, 216, 202, 1);
+  width: 260px;
+  height: 50px;
+  border-radius: 4px;
+  }
+
+  .color-26:hover p{
+  opacity: 1;
+  }
+  .color-27{
+      display: flex;
+      justify-content:space-between;
+      align-items: flex-end;
+  background-color:rgba(251, 243, 228, 1);
+  width: 260px;
+  height: 50px;
+  border-radius: 4px;
+  }
+
+  .color-27:hover p{
+  opacity: 1;
+  }
+  .color-28{
+      display: flex;
+      justify-content:space-between;
+      align-items: flex-end;
+  background-color:rgba(16, 86, 82, 1);
+  width: 260px;
+  height: 50px;
+  border-radius: 4px;
+  }
+  .color-28:hover p{
+  opacity: 1;
+  }
+  .card-8{
+    display: flex;
+    flex-direction: column;
+    }
+  
+    .color-29{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+        background-color:rgba(205, 240, 234, 1);
+        width: 260px;
+        height: 50px;
+        border-radius: 4px;
+    }
+   
+    .color-29:hover p{
+    opacity: 1;
+    }
+    .color-30{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+    background-color:rgba(223, 216, 202, 1);
+    width: 260px;
+    height: 50px;
+    border-radius: 4px;
+    }
+    .color-30:hover p{
+    opacity: 1;
+    }
+    .color-31{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+    background-color:rgba(246, 198, 234, 1);
+    width: 260px;
+    height: 50px;
+    border-radius: 4px;
+    }
+    .color-31:hover p{
+    opacity: 1;
+    }
+    .color-32{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+    background-color: rgba(250, 244, 183, 1);
+    width:260px;
+    height: 50px;
+    border-radius: 4px;
+    }
+    .color-32:hover p{
+    opacity: 1;
+    }
+    .card-9{
+        display: flex;
+        flex-direction: column;
+        }
+      
+        .color-33{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+            background-color:rgba(255, 204, 29, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+        }
+       
+        .color-33:hover p{
+        opacity: 1;
+        }
+        .color-34{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+        background-color:rgba(11, 70, 25, 1);
+        width: 260px;
+        height: 50px;
+        border-radius: 4px;
+        }
+        .color-34:hover p{
+        opacity: 1;
+        }
+        .color-35{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+        background-color:rgba(17, 101, 48, 1);
+        width: 260px;
+        height: 50px;
+        border-radius: 4px;
+        }
+        .color-35:hover p{
+        opacity: 1;
+        }
+        .color-36{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+        background-color: rgba(232, 232, 204, 1);
+        width:260px;
+        height: 50px;
+        border-radius: 4px;
+        }
+        .color-36:hover p{
+        opacity: 1;
+        }
+        .card-9{
+        display: flex;
+        flex-direction: column;
+        }
+      
+        .color-33{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+            background-color:rgba(255, 204, 29, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+        }
+       
+        .color-33:hover p{
+        opacity: 1;
+        }
+        .color-34{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+        background-color:rgba(11, 70, 25, 1);
+        width: 260px;
+        height: 50px;
+        border-radius: 4px;
+        }
+        .color-34:hover p{
+        opacity: 1;
+        }
+        .color-35{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+        background-color:rgba(17, 101, 48, 1);
+        width: 260px;
+        height: 50px;
+        border-radius: 4px;
+        }
+        .color-35:hover p{
+        opacity: 1;
+        }
+        .color-36{
+            display: flex;
+            justify-content:space-between;
+            align-items: flex-end;
+        background-color: rgba(232, 232, 204, 1);
+        width:260px;
+        height: 50px;
+        border-radius: 4px;
+        }
+        .color-36:hover p{
+        opacity: 1;
+        }
+        .card-10{
+            display: flex;
+            flex-direction: column;
+            }
+            .color-37{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+                background-color:  rgba(0, 255, 171, 1);
+                width: 260px;
+                height: 50px;
+                border-radius: 4px;
+            }
+            .color-37:hover p{
+            opacity: 1;
+            }
+            .color-38{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+            background-color:rgba(20, 195, 142, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+            }
+            .color-38:hover p{
+            opacity: 1;
+            }
+            .color-39{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+            background-color:rgba(184, 241, 176, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+            }
+            .color-39:hover p{
+            opacity: 1;
+            }
+            .color-40{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+            background-color: rgba(227, 252, 191, 1);
+            width:260px;
+            height: 50px;
+            border-radius: 4px;
+            }
+            .color-40:hover p{
+            opacity: 1;
+            }
+        .card-11{
+            display: flex;
+            flex-direction: column;
+            }
+            .color-41{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+                background-color:rgba(73, 255, 0, 1);
+                width: 260px;
+                height: 50px;
+                border-radius: 4px;
+            }
+           
+            .color-41:hover p{
+            opacity: 1;
+            }
+            .color-42{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+            background-color:rgba(251, 255, 0, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+            }
+            .color-42:hover p{
+            opacity: 1;
+            }
+            .color-43{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+            background-color:rgba(255, 147, 0, 1);
+            width: 260px;
+            height: 50px;
+            border-radius: 4px;
+            }
+            .color-43:hover p{
+            opacity: 1;
+            }
+            .color-44{
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-end;
+            background-color: rgba(255, 0, 0, 1);
+            width:260px;
+            height: 50px;
+            border-radius: 4px;
+            }
+            .color-44:hover p{
+            opacity: 1;
+            }     
+            .card-12{
+                display: flex;
+                flex-direction: column;
+                }
+                .color-45{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-end;
+                    background-color:rgba(6, 40, 61, 1);
+                    width: 260px;
+                    height: 50px;
+                    border-radius: 4px;
+                }
+               
+                .color-45:hover p{
+                opacity: 1;
+                }
+                .color-46{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-end;
+                background-color:rgba(19, 99, 223, 1);
+                width: 260px;
+                height: 50px;
+                border-radius: 4px;
+                }
+                .color-46:hover p{
+                opacity: 1;
+                }
+                .color-47{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-end;
+                background-color:rgba(71, 181, 255, 1);
+                width: 260px;
+                height: 50px;
+                border-radius: 4px;
+                }
+                .color-47:hover p{
+                opacity: 1;
+                }
+                .color-48{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-end;
+                background-color: rgba(223, 246, 255, 1);
+                width:260px;
+                height: 50px;
+                border-radius: 4px;
+                }
+                .color-48:hover p{
+                opacity: 1;
+                }              
